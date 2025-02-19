@@ -2,7 +2,7 @@ My firmware is designed for an early flood warning sensor that detects rising wa
 
 Communication between the two boards is handled via LoRa SX1278. The measurement device (firmware: sensorunit.cpp) is powered by a solar panel with a battery, so it needs to be power-efficient. To achieve this, I use the ESP32’s built-in deep sleep mode.
 
-The transmitting module is powered via USB and communicates with the server using HTTP. The server side of the project runs on a Django + React (Vite) stack and is kept in a private repository for security reasons.
+The transmitting (loratest.cpp) module is powered via USB and communicates with the server using HTTP. The server side of the project runs on a Django + React (Vite) stack and is kept in a private repository for security reasons.
 
 To-Do List:
 1)Encrypt LoRa messages
