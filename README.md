@@ -5,6 +5,6 @@ Communication between the two boards is handled via LoRa SX1278. The measurement
 The transmitting module is powered via USB and communicates with the server using HTTP. The server side of the project runs on a Django + React (Vite) stack and is kept in a private repository for security reasons.
 
 To-Do List:
-Encrypt LoRa messages
-Use HTTPS instead of HTTP
-Add a gateway on the server side to support multiple measurement units connected to a single transmission unit
+1)Encrypt LoRa messages
+2)Use HTTPS instead of HTTP
+3)Add a gateway on the server side to support multiple measurement units connected to a single transmission unit
